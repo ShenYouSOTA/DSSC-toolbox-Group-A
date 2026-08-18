@@ -1,8 +1,8 @@
 # FIWARE Data Space Connector vs TNO Trusted Secure Gateway
 
-## 1. Introduction
+# 1. Introduction
 
-### 1.1 Background
+## 1.1 Background
 
 Data Space Connectors provide the technical foundation for organizations to participate in sovereign data-sharing environments. A connector typically sits between an organization's internal data systems and external data-space participants.
 
@@ -21,7 +21,7 @@ The **FIWARE Data Space Connector (DSC)** is designed as an engineering-oriented
 
 The **TNO Trusted Secure Gateway (TSG)** is a connector implementation developed by TNO that focuses more directly on secure and interoperable data-space communication. Its architecture is more modular and emphasizes data-space protocols, identity, policy enforcement, and secure data exchange.
 
-### 1.2 Purpose of Comparison
+## 1.2 Purpose of Comparison
 
 This comparison evaluates FIWARE DSC and TNO TSG from the following perspectives:
 
