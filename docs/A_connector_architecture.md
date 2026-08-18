@@ -236,7 +236,7 @@ component performs a specific role in the exchange lifecycle.
 
 ## FIWARE Component Architecture
 
-![[Figure 1. FIWARE FDF Architecture Diagram.jpg]]
+![FIWARE FDF Architecture Diagram](../diagrams/figure-1-fiware-fdf-architecture-diagram.jpg)
 
 This diagram explains the internal structure of the connector implementation.
 
@@ -316,7 +316,7 @@ The connector follows a governed workflow rather than direct data access.
 
 ## Workflow Diagram
 
-![[Figure 2. Data Exchange Workflow.jpg]]
+![Data Exchange Workflow](../diagrams/figure-2-data-exchange-workflow.jpg)
 
 The workflow contains five main stages:
 
