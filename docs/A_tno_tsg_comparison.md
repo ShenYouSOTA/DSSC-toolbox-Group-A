@@ -738,9 +738,3 @@ For the current Building Energy scenario, **FIWARE DSC is a strong candidate for
 Therefore, the two solutions should not necessarily be viewed as direct substitutes:
 
 > **FIWARE DSC is more suitable for demonstrating how a complete data-space ecosystem can be integrated, while TNO TSG is more suitable for studying the connector and data-space protocol layer itself.**
-
-Relevant official documentation and technical references are collected in:
-
-```
-references.md
-```
