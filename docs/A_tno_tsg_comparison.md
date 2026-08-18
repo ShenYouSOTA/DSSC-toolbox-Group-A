@@ -1,5 +1,9 @@
 # FIWARE Data Space Connector vs TNO Trusted Secure Gateway
 
+**Group:** A – Data Exchange & Connector  
+**Technology:** FIWARE Data Space Connector (DSC) / TNO Trusted Secure Gateway (TSG)  
+**Research Focus:** Comparative Analysis of Data Space Connector Architectures, Secure Data Exchange, and Data Governance Mechanisms
+
 # 1. Introduction
 
 ## 1.1 Background
