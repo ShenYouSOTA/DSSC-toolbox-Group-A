@@ -735,23 +735,6 @@ Therefore, the two solutions should not necessarily be viewed as direct substitu
 
 > **FIWARE DSC is more suitable for demonstrating how a complete data-space ecosystem can be integrated, while TNO TSG is more suitable for studying the connector and data-space protocol layer itself.**
 
----
-# 10. Scope and Evidence
-
-This comparison focuses on:
-
--  Architectural scope 
--  Component responsibilities 
--  Data exchange workflows 
--  Contract and policy mechanisms 
--  Identity and trust 
--  Deployment characteristics 
--  Suitability for the Building Energy Data Space scenario 
-
-The analysis is intended as an **architectural and functional comparison**, rather than a quantitative performance benchmark.
-
-Technical conclusions should be interpreted in the context of the specific versions, deployment configurations, and components used in the demonstration environment.
-
 Relevant official documentation and technical references are collected in:
 
 ```
