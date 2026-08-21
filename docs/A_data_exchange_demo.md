@@ -1,4 +1,4 @@
-# FIWARE DSC Data Exchange Demo
+# FIWARE Data Space Data Exchange Demo
 
 > **Group:** A – Data Exchange & Connector  
 > **Technology:** FIWARE Data Space Connector (DSC) / TNO Trusted Secure Gateway (TSG)  
