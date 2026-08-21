@@ -1,5 +1,10 @@
 # FIWARE Data Space Connector Deployment Notes
 
+> **Group:** A – Data Exchange & Connector  
+> **Technology:** FIWARE Data Space Connector (DSC)  
+> **Research Focus:** Data Space Connector Deployment, Architecture, and Secure Data Exchange
+---
+
 This document records the deployment process of the **FIWARE Data Space Connector (DSC)** in a local Kubernetes environment, including:
 
 - Deployment environment preparation
