@@ -1,4 +1,4 @@
-# A Connector Architecture
+# FIWARE Data Space Connector Architecture
 
 > **Group:** A – Data Exchange & Connector  
 > **Technology:** FIWARE Data Space Connector (DSC) / TNO Trusted Secure Gateway (TSG)  
