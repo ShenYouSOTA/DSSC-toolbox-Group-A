@@ -1,5 +1,10 @@
 # FIWARE DSC Data Exchange Demo
 
+> **Group:** A – Data Exchange & Connector  
+> **Technology:** FIWARE Data Space Connector (DSC) / TNO Trusted Secure Gateway (TSG)  
+> **Research Focus:** Data Space Connector Architecture and Secure Data Exchange
+---
+
 This document describes a data exchange demo based on the **FIWARE Data Space Connector (DSC)**.
 
 The demo uses a **Building Energy Data Space** scenario to simulate the complete data exchange workflow between:
