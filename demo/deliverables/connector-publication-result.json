@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-08-18T13:13:15Z",
+  "responsibleParty": "DSSC Group A",
+  "artifactOrigin": "runtime-api-capture",
+  "success": true,
+  "executionMode": "fiware-real-cluster",
+  "canonicalOfferingId": "urn:dssc:service-offering:building-energy-hourly-v1",
+  "publication": {
+    "spec_id": "urn:ngsi-ld:product-specification:d6e8e6df-1a29-4303-89ca-d051b26b1bba",
+    "offering_id": "urn:ngsi-ld:product-offering:8859dab8-d9da-4fe0-a32e-ff29e38aebbd",
+    "resource": {
+      "id": "urn:ngsi-ld:Building:BLD-001",
+      "httpStatus": 201
+    },
+    "productSpecification": {
+      "id": "urn:ngsi-ld:product-specification:d6e8e6df-1a29-4303-89ca-d051b26b1bba",
+      "httpStatus": 201,
+      "request": {
+        "name": "Energy Data Specification",
+        "description": "Hourly building energy consumption data",
+        "version": "0.1.0",
+        "lifecycleStatus": "Active"
+      },
+      "response": {
+        "id": "urn:ngsi-ld:product-specification:d6e8e6df-1a29-4303-89ca-d051b26b1bba",
+        "href": "urn:ngsi-ld:product-specification:d6e8e6df-1a29-4303-89ca-d051b26b1bba",
+        "description": "Hourly building energy consumption data",
+        "lastUpdate": "2026-08-18T13:13:05.076099906Z",
+        "lifecycleStatus": "Active",
+        "name": "Energy Data Specification",
+        "version": "0.1.0"
+      }
+    },
+    "productOffering": {
+      "id": "urn:ngsi-ld:product-offering:8859dab8-d9da-4fe0-a32e-ff29e38aebbd",
+      "httpStatus": 201,
+      "request": {
+        "name": "Building Energy Consumption Data",
+        "description": "Hourly energy consumption data for buildings in Shenzhen",
+        "version": "0.1.0",
+        "isBundle": false,
+        "isSellable": true,
+        "lifecycleStatus": "Active",
+        "productSpecification": {
+          "id": "urn:ngsi-ld:product-specification:d6e8e6df-1a29-4303-89ca-d051b26b1bba",
+          "name": "Energy Data Specification"
+        },
+        "productOfferingTerm": [
+          {
+            "name": "edc:contractDefinition",
+            "@schemaLocation": "https://raw.githubusercontent.com/wistefan/edc-dsc/refs/heads/init/schemas/contract-definition.json",
+            "accessPolicy": {
+              "@context": "http://www.w3.org/ns/odrl.jsonld",
+              "odrl:uid": "urn:dssc:policy:building-energy:access",
+              "assigner": "did:web:shenyousota.github.io:dssc-toolbox",
+              "permission": [
+                {
+                  "action": "use"
+                }
+              ],
+              "@type": "Offer"
+            },
+            "contractPolicy": {
+              "@context": "http://www.w3.org/ns/odrl.jsonld",
+              "odrl:uid": "urn:dssc:policy:building-energy:contract",
+              "assigner": "did:web:shenyousota.github.io:dssc-toolbox",
+              "permission": [
+                {
+                  "action": "use",
+                  "duty": [
+                    {
+                      "action": "attribute"
+                    },
+                    {
+                      "action": "delete",
+                      "constraint": {
+                        "leftOperand": "odrl:elapsedTime",
+                        "operator": "gteq",
+                        "rightOperand": {
+                          "@value": "P30D",
+                          "@type": "xsd:duration"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "prohibition": [
+                {
+                  "action": "distribute"
+                }
+              ],
+              "@type": "Offer"
+            }
+          }
+        ]
+      },
+      "response": {
+        "id": "urn:ngsi-ld:product-offering:8859dab8-d9da-4fe0-a32e-ff29e38aebbd",
+        "href": "urn:ngsi-ld:product-offering:8859dab8-d9da-4fe0-a32e-ff29e38aebbd",
+        "description": "Hourly energy consumption data for buildings in Shenzhen",
+        "isBundle": false,
+        "isSellable": true,
+        "lastUpdate": "2026-08-18T13:13:06.483532230Z",
+        "lifecycleStatus": "Active",
+        "name": "Building Energy Consumption Data",
+        "version": "0.1.0",
+        "productOfferingTerm": [
+          {
+            "name": "edc:contractDefinition",
+            "@schemaLocation": "https://raw.githubusercontent.com/wistefan/edc-dsc/refs/heads/init/schemas/contract-definition.json",
+            "contractPolicy": {
+              "@context": "http://www.w3.org/ns/odrl.jsonld",
+              "odrl:uid": "urn:dssc:policy:building-energy:contract",
+              "assigner": "did:web:shenyousota.github.io:dssc-toolbox",
+              "permission": [
+                {
+                  "action": "use",
+                  "duty": [
+                    {
+                      "action": "attribute"
+                    },
+                    {
+                      "action": "delete",
+                      "constraint": {
+                        "leftOperand": "odrl:elapsedTime",
+                        "operator": "gteq",
+                        "rightOperand": {
+                          "@value": "P30D",
+                          "@type": "xsd:duration"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "prohibition": [
+                {
+                  "action": "distribute"
+                }
+              ],
+              "@type": "Offer"
+            },
+            "accessPolicy": {
+              "@context": "http://www.w3.org/ns/odrl.jsonld",
+              "odrl:uid": "urn:dssc:policy:building-energy:access",
+              "assigner": "did:web:shenyousota.github.io:dssc-toolbox",
+              "permission": [
+                {
+                  "action": "use"
+                }
+              ],
+              "@type": "Offer"
+            }
+          }
+        ],
+        "productSpecification": {
+          "id": "urn:ngsi-ld:product-specification:d6e8e6df-1a29-4303-89ca-d051b26b1bba",
+          "name": "Energy Data Specification"
+        }
+      }
+    },
+    "policyVerification": {
+      "sourceUrl": "https://tm-forum-api.127.0.0.1.nip.io/tmf-api/productCatalogManagement/v4/productOffering/urn:ngsi-ld:product-offering:8859dab8-d9da-4fe0-a32e-ff29e38aebbd",
+      "httpStatus": 200,
+      "accessPolicyPreserved": true,
+      "contractPolicyPreserved": true,
+      "verified": true
+    },
+    "providerIdentity": {
+      "did": "did:web:shenyousota.github.io:dssc-toolbox",
+      "registryUrl": "https://tir.127.0.0.1.nip.io/v4/issuers",
+      "httpStatus": 200,
+      "registered": true
+    }
+  },
+  "retrievedResourceIds": [
+    "urn:ngsi-ld:Building:BLD-001"
+  ],
+  "overallDemoSuccess": true,
+  "containsSensitiveCredentials": false
+}

@@ -1,0 +1,27 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1"
+  ],
+  "id": "did:web:shenyousota.github.io:dssc-toolbox",
+  "verificationMethod": [
+    {
+      "id": "did:web:shenyousota.github.io:dssc-toolbox#key-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:shenyousota.github.io:dssc-toolbox",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "P-256",
+        "alg": "ES256",
+        "x": "70yvq76cyQ3AzhOz0VvIKQkvm6Eff4g715DGY1KTlRY",
+        "y": "xAXY4NnaFCiTcdNHLTx4ZYbHkgY5XLfq52wdyCl1vkg",
+        "x5u": "https://shenyousota.github.io/dssc-toolbox/x5c-chain.pem"
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:shenyousota.github.io:dssc-toolbox#key-1"
+  ],
+  "assertionMethod": [
+    "did:web:shenyousota.github.io:dssc-toolbox#key-1"
+  ]
+}
